@@ -6,10 +6,10 @@ authors = [
     { name = "Ethan Marx" },
     { name = "Deep Chatterjee" },
 ]
-requires-python = ">=3.10,<3.13"
+requires-python = ">=3.11,<3.14"
 dependencies = [
     "lightray>=0.2.4",
-    "numpy<2.0.0",
+    "numpy>=2",
     "ml4gw>=0.7.13",
     "lightning>=2.5.0",
     "h5py>=3.10.0,<4",
@@ -17,7 +17,7 @@ dependencies = [
     "bilby>=2.2.3,<3",
     "healpy>=1.16.6,<2",
     "jsonargparse[signatures]>=4.27.1,<5",
-    "urllib3>=1.25.4,<1.27",
+    "urllib3>=2",
     "omegaconf>=2.3.0,<3",
     "gwpy>=3.0.12",
     "wandb>=0.18.5,<0.19",
@@ -44,7 +44,7 @@ dev = [
     "pre-commit>=3.7.0,<4",
     "jupyter>=1.0.0,<2",
     "pytest>=8.0.2,<9",
-    "conda-lock>=2.5.7,<3",
+    "conda-lock>=4",
     "ruff>=0.9.6",
 ]
 docs = [
